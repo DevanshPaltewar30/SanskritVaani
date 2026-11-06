@@ -1,0 +1,233 @@
+{
+  "summary": {
+    "mrr": 0.4394,
+    "precision_at_k": 0.3939,
+    "recall_at_k": 0.6364,
+    "faithfulness": 0.2485,
+    "answer_relevance": 0.5333,
+    "avg_retrieval_time_ms": 60.94,
+    "avg_generation_time_s": 9.38,
+    "avg_tokens_per_second": 6.8,
+    "avg_embedding_time_ms": 20.24,
+    "avg_cpu_utilization_percent": 96.6,
+    "avg_ram_consumption_mb": 1052.3
+  },
+  "per_query_details": [
+    {
+      "id": "Q01",
+      "query": "मूर्खभृत्येन स्वामिनः नासिका कथं छिन्ना?",
+      "language": "Sanskrit (Devanagari)",
+      "is_in_domain": true,
+      "retrieved_sources": [
+        "Rag-docs",
+        "01_murkhabhritya",
+        "02_chaturasya_kalidasasya"
+      ],
+      "precision_at_k": 0.333,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 0.5,
+      "retrieval_time_ms": 22.74,
+      "generation_time_s": 8.08,
+      "tokens_per_sec": 11.1,
+      "answer_preview": "मूर्खभृत्येन स्वामिनः नासिका कथं छिन्ना। (मूर्खभृत्यस्य संसर्गात् सर्वम् कार्यम् विनश्यति।)"
+    },
+    {
+      "id": "Q02",
+      "query": "What did the foolish servant do when a fly sat on his master's face?",
+      "language": "English",
+      "is_in_domain": true,
+      "retrieved_sources": [
+        "01_murkhabhritya",
+        "01_murkhabhritya",
+        "03_vriddhayah_chaturyam"
+      ],
+      "precision_at_k": 0.667,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0,
+      "retrieval_time_ms": 51.84,
+      "generation_time_s": 6.48,
+      "tokens_per_sec": 2.9,
+      "answer_preview": "The foolish servant sat on his master's face when a fly sat on his master's face."
+    },
+    {
+      "id": "Q03",
+      "query": "कालिदासः 'शीतं बहु बाधति' इति समस्यायाः किं समाधानम् अकरोत्?",
+      "language": "Sanskrit (Devanagari)",
+      "is_in_domain": true,
+      "retrieved_sources": [
+        "02_chaturasya_kalidasasya",
+        "02_chaturasya_kalidasasya",
+        "04_sheetam_bahu_badhati"
+      ],
+      "precision_at_k": 1.0,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0,
+      "retrieval_time_ms": 37.57,
+      "generation_time_s": 7.94,
+      "tokens_per_sec": 4.0,
+      "answer_preview": "शीतं बहु बाधति। (शीतं बहु बाधति।)"
+    },
+    {
+      "id": "Q04",
+      "query": "Why did the court grammarians object to the phrase 'badhati' in King Bhoja's court?",
+      "language": "English",
+      "is_in_domain": true,
+      "retrieved_sources": [
+        "Rag-docs",
+        "Rag-docs",
+        "04_sheetam_bahu_badhati"
+      ],
+      "precision_at_k": 0.333,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 0.333,
+      "retrieval_time_ms": 47.41,
+      "generation_time_s": 6.84,
+      "tokens_per_sec": 3.5,
+      "answer_preview": "The court grammarians objected to the phrase 'badhati' because it was not in the standard Sanskrit vocabulary."
+    },
+    {
+      "id": "Q05",
+      "query": "वृद्धा यशोदा चौरैः कूपस्य जलं निष्कासयितुं किं चातुर्यम् अकरोत्?",
+      "language": "Sanskrit (Devanagari)",
+      "is_in_domain": true,
+      "retrieved_sources": [
+        "Rag-docs",
+        "Rag-docs",
+        "Rag-docs"
+      ],
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "reciprocal_rank": 0.0,
+      "retrieval_time_ms": 296.09,
+      "generation_time_s": 23.37,
+      "tokens_per_sec": 5.8,
+      "answer_preview": "वृद्धा यशोदा चौरैः कूपस्य जलं निष्कासयितुं किं चातुर्यम् अकरोत्। (वृद्धा यशोदा चौरैः कूपस्य जलं निष्कासयितुं किं चातुर्य..."
+    },
+    {
+      "id": "Q06",
+      "query": "How did the old woman's intelligence help irrigate her vegetable garden and catch the thieves?",
+      "language": "English",
+      "is_in_domain": true,
+      "retrieved_sources": [
+        "01_murkhabhritya",
+        "03_vriddhayah_chaturyam",
+        "03_vriddhayah_chaturyam"
+      ],
+      "precision_at_k": 0.667,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 0.5,
+      "retrieval_time_ms": 54.42,
+      "generation_time_s": 9.06,
+      "tokens_per_sec": 3.6,
+      "answer_preview": "The old woman's intelligence helped her irrigate her vegetable garden and catch the thieves by providing accurate inform..."
+    },
+    {
+      "id": "Q07",
+      "query": "शीतं बहु बाधति इति कथायां दरिद्रस्य वृद्धस्य कृते राजा भोजः किं दत्तवान्?",
+      "language": "Sanskrit (Devanagari)",
+      "is_in_domain": true,
+      "retrieved_sources": [
+        "Rag-docs",
+        "Rag-docs",
+        "Rag-docs"
+      ],
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "reciprocal_rank": 0.0,
+      "retrieval_time_ms": 25.37,
+      "generation_time_s": 9.99,
+      "tokens_per_sec": 5.8,
+      "answer_preview": "The passage does not contain information to answer this question. (उपलब्धग्रन्थेषु एतस्य प्रश्नस्य उत्तरं न लभ्यते।)"
+    },
+    {
+      "id": "Q08",
+      "query": "What argument did Kalidasa make about compassion surpassing rigid grammatical rules?",
+      "language": "English",
+      "is_in_domain": true,
+      "retrieved_sources": [
+        "02_chaturasya_kalidasasya",
+        "02_chaturasya_kalidasasya",
+        "01_murkhabhritya"
+      ],
+      "precision_at_k": 0.667,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0,
+      "retrieval_time_ms": 21.08,
+      "generation_time_s": 9.37,
+      "tokens_per_sec": 7.0,
+      "answer_preview": "Kalidasa made an argument about compassion surpassing rigid grammatical rules by emphasizing the importance of understan..."
+    },
+    {
+      "id": "Q09",
+      "query": "सोमदत्तः देवदत्तश्च कृषकयोः दैवस्य पुरुषार्थस्य च विषये कः भेदः आसीत्?",
+      "language": "Sanskrit (Devanagari)",
+      "is_in_domain": true,
+      "retrieved_sources": [
+        "Rag-docs",
+        "Rag-docs",
+        "Rag-docs"
+      ],
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "reciprocal_rank": 0.0,
+      "retrieval_time_ms": 44.32,
+      "generation_time_s": 12.04,
+      "tokens_per_sec": 17.4,
+      "answer_preview": "सोमदत्तः देवदत्तश्च कृषकयोः दैवस्य पुरुषार्थस्य च विषये कः भेदः आसीत्? (सोमदत्तः देवदत्तश्च कृषकयोः दैवस्य पुरुषार्थस्य ..."
+    },
+    {
+      "id": "Q10",
+      "query": "Why could the idle farmer not reap any harvest during the drought compared to the hardworking farmer?",
+      "language": "English",
+      "is_in_domain": true,
+      "retrieved_sources": [
+        "03_vriddhayah_chaturyam",
+        "05_daivam_purusharthascha",
+        "05_daivam_purusharthascha"
+      ],
+      "precision_at_k": 0.667,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 0.5,
+      "retrieval_time_ms": 50.83,
+      "generation_time_s": 9.9,
+      "tokens_per_sec": 6.8,
+      "answer_preview": "The hardworking farmer could not reap any harvest during the drought because the idle farmer was not able to understand ..."
+    },
+    {
+      "id": "Q11",
+      "query": "vriddhayah chaturyam katha varnayatu",
+      "language": "Roman Transliterated Sanskrit",
+      "is_in_domain": true,
+      "retrieved_sources": [
+        "02_chaturasya_kalidasasya",
+        "Rag-docs",
+        "Rag-docs"
+      ],
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "reciprocal_rank": 0.0,
+      "retrieval_time_ms": 43.6,
+      "generation_time_s": 9.53,
+      "tokens_per_sec": 7.0,
+      "answer_preview": "The hardworking farmer could not reap any harvest during the drought because the idle farmer was not able to understand ..."
+    },
+    {
+      "id": "Q12",
+      "query": "What is the capital city of Australia?",
+      "language": "English (Out of Domain)",
+      "is_in_domain": false,
+      "retrieved_sources": [
+        "Rag-docs",
+        "02_chaturasya_kalidasasya",
+        "02_chaturasya_kalidasasya"
+      ],
+      "precision_at_k": 1.0,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0,
+      "retrieval_time_ms": 36.0,
+      "generation_time_s": 0.01,
+      "tokens_per_sec": 0.0,
+      "answer_preview": "The provided Sanskrit documents do not contain information to answer this question. (उपलब्धग्रन्थेषु एतस्य प्रश्नस्य उत्..."
+    }
+  ]
+}
